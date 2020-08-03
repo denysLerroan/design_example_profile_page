@@ -1,0 +1,59 @@
+    .bkd {
+        background-image: url(/imagens/designer.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .layout-cabecalho {
+        height: 760px;
+        line-height: 60px;
+        border-bottom: 2px solid #ccc;
+        background-color: rgba(26, 26, 26, 0.712);
+    }
+    
+    .layout-cabecalho--home {
+        position: fixed;
+        top: 200px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+    
+    .layout-cabecalho--home:hover {}
+    
+    .layout-planos {
+        padding: 80px 0;
+    }
+    
+    .layout-chamada {
+        position: relative;
+        margin-top: 261px;
+        background-color: blueviolet;
+    }
+    
+    .layout-depoimento {
+        padding: 80px 0px;
+        background-color: #e7e7e7;
+    }
+    
+    .layout-rodape {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 20px 0px;
+        background-color: #484848;
+        color: #fff;
+        text-align: center;
+        display: none;
+    }
+    
+    @media(max-width: 991px) {
+        .layout-planos .row>div:not(.ultima-coluna) {
+            margin-bottom: 40px;
+        }
+    }
+    
+    .layout-assinatura {
+        padding: 40px 0px;
+    }
